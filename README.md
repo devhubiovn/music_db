@@ -1,3 +1,4 @@
+```sql
 Cơ sở dữ liệu
 Bảng users - Quản lý thông tin người dùng
 
@@ -79,6 +80,9 @@ song_id: int, foreign key
 total_plays: int
 total_likes: int
 updated_at: timestamp
+```
+
+
 Chức năng trang người dùng
 Đăng ký tài khoản: Tương tác với bảng users, cho phép người dùng nhập thông tin cá nhân.
 Đăng nhập tài khoản: Kiểm tra username và password trong bảng users.
@@ -94,3 +98,8 @@ Chức năng trang quản trị
 Thêm/xóa/cập nhật bài hát: Tương tác với bảng songs để quản lý bài hát.
 Xem thống kê: Lấy dữ liệu từ bảng stats để xem thông tin phát và lượt thích.
 Quản trị tài khoản người dùng: Tương tác với bảng users để quản lý tài khoản người dùng.
+
+
+```sql
+DROP DATABASE `db_need_drop`
+```
